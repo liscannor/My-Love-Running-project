@@ -163,6 +163,31 @@ hr {
     align-items: center;
 }
 
+/* Meetups section */
+
+#times {
+    background: url('../images/dublin-city.webp') no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screen less than 400px wide. 
+    Each div will expand to fill  the available space on its row. */
+    flex-basis: 200px;
+    flex-grow: 1;
+/* Create a grid meetup times div over the bg image */
+    border: 1px solid #ffffff;
+}
+
+#times h3 {
+    /* Override the heading colour general styles */
+    color: #fafafa;
+}
 
 /* Footer */
 #social-networks {
