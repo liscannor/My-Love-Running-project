@@ -26,6 +26,7 @@ h3 {
     letter-spacing: 2px;
     color: #252525;
 }
+
 .hidden-heading {
     display: none;
 }
@@ -183,7 +184,7 @@ hr {
     Each div will expand to fill  the available space on its row. */
     flex-basis: 200px;
     flex-grow: 1;
-/* Create a grid meetup times div over the bg image */
+    /* Create a grid meetup times div over the bg image */
     border: 1px solid #ffffff;
 }
 
@@ -217,6 +218,15 @@ hr {
     color: #3a3a3a;
 }
 
+/* Media query: larger and landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+
+    /* Gallery */
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -276,6 +286,11 @@ hr {
         align-self: flex-end;
         text-align: end;
     }
+
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* Larger devices (laptops and desktops (992px and up) */
@@ -283,9 +298,13 @@ hr {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+    /* Gallery */
+    #photos {
+        column-count: 4;
 }
 
 @media screen and (min-width: 1200px) {
+
     /* Reasons section */
     #benefits {
         display: flex;
