@@ -302,6 +302,7 @@ hr {
     #photos {
         column-count: 4;
 }
+}
 
 @media screen and (min-width: 1200px) {
 
@@ -330,5 +331,4 @@ hr {
     .benefits-physical>div {
         align-self: flex-end;
     }
-
 }
