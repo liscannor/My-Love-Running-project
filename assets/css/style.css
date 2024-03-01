@@ -96,6 +96,8 @@ main {
     /* Make main el take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -201,6 +203,14 @@ hr {
 
 #photos {
     line-height: 0;
+}
+
+/* Sing Up page */
+#singup {
+background: url("../images/signup-image.webp") no-repeat center/cover;
+background-size: cover;
+background-position: 75%;
+flex-grow: 1;
 }
 
 /* Footer */
