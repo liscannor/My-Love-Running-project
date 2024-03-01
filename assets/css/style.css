@@ -208,9 +208,54 @@ hr {
 /* Sing Up page */
 #singup {
 background: url("../images/signup-image.webp") no-repeat center/cover;
-background-size: cover;
 background-position: 75%;
 flex-grow: 1;
+position: relative;
+}
+
+#sing-up {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, .6);
+    padding: 30px;
+    width: 80%;
+    position: absolute;
+    top: 20px;
+    left: 10%;
+    right: 10%;
+
+}
+
+#sing-up h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    width: 100%;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #fafafa;
+      /* Buuuuug!!! */
+    /* opacity: 0; */
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.radio_buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.join-button {
+    font-size: 100%;
+    color: #fafafa;
+    background-color: #454b1b;
+    border-radius: 2px;
+    padding: 15px 32px;
+    margin-top: 20px;
+
 }
 
 /* Footer */
@@ -218,6 +263,7 @@ flex-grow: 1;
     text-align: center;
     padding: 20px 0;
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     list-style-type: none;
 }
