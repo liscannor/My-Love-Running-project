@@ -237,7 +237,7 @@ position: relative;
     margin-bottom: 20px;
     color: #fafafa;
       /* Buuuuug!!! */
-    /* opacity: 0; */
+    background-color: transparent;
     border: 1px solid #fafafa;
     border-radius: 2px;
 }
